@@ -6,150 +6,210 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
+
     <section class="container">
+
       <nav>
-        <div class="header">
-          <img src="icons/header.png">
+        <div class="header1">
+            <img src="icons/status.png">
         </div>
+        <ul class="header2">
+          <li class="back-arrow">
+            <img src="icons/back-arrow.png">
+          </li>
+          <li class="bus">
+            <img src="icons/bus-stop.png">
+          </li>
+          <li class="stop">
+            <h1 class="bus-stop" style="color: white">Washington & State</h1>
+          </li>
+          <li class="option">
+            <img src="icons/more-options.png">
+          </li>
+        </ul>
       </nav>
-      <section class="bus-route">
-        <div class="routelist">
-          <div class="eastbound">
-            <div class="category">
-              <h1 class="route" style="color: white">Eastbound</h1>
-            </div>
-            <div class="routeinfo1">
-              <div class="bus">
-                <h1 class="line">60</h1>
-              </div>
-              <div class="content">
-                <h3 class="info">To: Randolph/Harbor Dr</h3>
-                <h3 class="info">Every <span style="color:red;font-weight:bold;font-size:18px">20</span> minutes</h3>
-              </div>
-              <div class="arrow">
-                <img src="icons/arrow.png">
-              </div>
-            </div>
-            <div class="routeinfo">
-              <div class="bus">
-                <h1 class="line">124</h1>
-              </div>
-              <div class="content">
-                <h3 class="info">To: Navy Pier</h3>
-                <h3 class="info">Every <span style="color:red;font-weight:bold;font-size:18px">10</span> minutes</h3>
-              </div>
-              <div class="arrow">
-                <img src="icons/arrow.png">
-              </div>
-            </div>
-          </div>
-          <div class="northbound">
-            <div class="category">
-              <h1 class="route" style="color: white">Northbound</h1>
-            </div>
-            <div class="routeinfo">
-              <div class="bus">
-                <h1 class="line">151</h1>
-              </div>
-              <div class="content">
-                <h3 class="info">To: Devon/Clark</h3>
-                <h3 class="info">Every <span style="color:red;font-weight:bold;font-size:18px">16</span> minutes</h3>
-              </div>
-              <div class="arrow">
-                <img src="icons/arrow.png">
-              </div>
-            </div>
-          </div>
-          <div class="southbound">
-            <div class="category">
-              <h1 class="route" style="color: white">Southbound</h1>
-            </div>
-            <div class="routeinfo1">
-              <div class="bus">
-                <h1 class="line">J14</h1>
-              </div>
-              <div class="content">
-                <h3 class="info">To: 103rd/Stony Island</h3>
-                <h3 class="info">Every <span style="color:red;font-weight:bold;font-size:18px">15</span> minutes</h3>
-              </div>
-              <div class="arrow">
-                <img src="icons/arrow.png">
-              </div>
-            </div>
-            <div class="routeinfo">
-              <div class="bus">
-                <h1 class="line">124</h1>
-              </div>
-              <div class="content">
-                <h3 class="info">To: Navy Pier</h3>
-                <h3 class="info">Every <span style="color:red;font-weight:bold;font-size:18px">10</span> minutes</h3>
-              </div>
-              <div class="arrow">
-                <img src="icons/arrow.png">
-              </div>
-            </div>
-          </div>
-          <div class="reroute">
-            <div class="category">
-              <h1 class="route" style="color: white">Reroute</h1>
-            </div>
-            <div class="routeinfo">
-              <div class="bus">
-                <h1 class="line">60</h1>
-              </div>
-              <div class="content">
-                <h3 class="info">To: Jackson Park Express</h3>
-                <h3 class="info">N/A</h3>
-              </div>
-              <div class="arrow">
-                <img src="icons/arrow.png">
-              </div>
-            </div>
-          </div>
-          <div class="outofservice">
-            <div class="category">
-              <h1 class="route" style="color: white">Out of service</h1>
-            </div>
-            <div class="routeinfo1">
-              <div class="bus">
-                <h1 class="line" style="font-size:30px">4</h1>
-              </div>
-              <div class="content">
-                <h3 class="info">To: Cottage Grove</h3>
-                <h3 class="info">Resume: <span style="color:red;font-weight:bold;font-size:18px">12:10am</span></h3>
-              </div>
-              <div class="arrow">
-                <img src="icons/arrow.png">
-              </div>
-            </div>
-            <div class="routeinfo1">
-              <div class="bus">
-                <h1 class="line">20</h1>
-              </div>
-              <div class="content">
-                <h3 class="info">To: Madison</h3>
-                <h3 class="info">Resume: <span style="color:red;font-weight:bold;font-size:18px">12:10am</span></h3>
-              </div>
-              <div class="arrow">
-                <img src="icons/arrow.png">
-              </div>
-            </div>
-            <div class="routeinfo">
-              <div class="bus">
-                <h1 class="line">157</h1>
-              </div>
-              <div class="content">
-                <h3 class="info">To: Streeterville/Taylor</h3>
-                <h3 class="info">Resume: <span style="color:red;font-weight:bold;font-size:18px">6:00am</span></h3>
-              </div>
-              <div class="arrow">
-                <img src="icons/arrow.png">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
+      <div class="map">
+        <img class="map-bus" src="icons/map.png">
+      </div>
+
+      <ul class="bus-list">
+
+        <li class="bus-info">
+          <ul class="bus-route">
+            <li class="route">
+              <h1 class="line">60</h1>
+            </li>
+            <li class="destination">
+              <h2 class="info">Randolph/Harbor Dr</h2>
+              <h2 class="category">Eastbound</h2>
+            </li>
+            <li class="time">
+              <h2 class="arrive-time">Arrive in <span style="color:red;font-weight:bold;font-size:20px">7</span> min</h2>
+              <h2 class="frequency">Every <span style="font-weight:bold;font-size:14px">20</span> minutes</h2>
+            </li>
+            <li class="arrow">
+              <img src="icons/arrow.png">
+            </li>
+          </ul>
+        </li>
+
+        <li class="bus-info">
+          <ul class="bus-route">
+            <li class="route">
+              <h1 class="line">124</h1>
+            </li>
+            <li class="destination">
+              <h2 class="info">Navy Pier</h2>
+              <h2 class="category">Eastbound</h2>
+            </li>
+            <li class="time">
+              <h2 class="arrive-time">Arrive in <span style="color:red;font-weight:bold;font-size:20px">8</span> min</h2>
+              <h2 class="frequency">Every <span style="font-weight:bold;font-size:14px">10</span> minutes</h2>
+            </li>
+            <li class="arrow">
+              <img src="icons/arrow.png">
+            </li>
+          </ul>
+        </li>
+
+        <li class="bus-info">
+          <ul class="bus-route">
+            <li class="route">
+              <h1 class="line">151</h1>
+            </li>
+            <li class="destination">
+              <h2 class="info">Devon/Clark</h2>
+              <h2 class="category">Northbound</h2>
+            </li>
+            <li class="time">
+              <h2 class="arrive-time">Arrive in <span style="color:red;font-weight:bold;font-size:20px">8</span> min</h2>
+              <h2 class="frequency">Every <span style="font-weight:bold;font-size:14px">16</span> minutes</h2>
+            </li>
+            <li class="arrow">
+              <img src="icons/arrow.png">
+            </li>
+          </ul>
+        </li>
+
+        <li class="bus-info">
+          <ul class="bus-route">
+            <li class="route">
+              <h1 class="line">J14</h1>
+            </li>
+            <li class="destination">
+              <h2 class="info">103rd/Stony Island</h2>
+              <h2 class="category">Southbound</h2>
+            </li>
+            <li class="time">
+              <h2 class="arrive-time">Arrive in <span style="color:red;font-weight:bold;font-size:20px">9</span> min</h2>
+              <h2 class="frequency">Every <span style="font-weight:bold;font-size:14px">15</span> minutes</h2>
+            </li>
+            <li class="arrow">
+              <img src="icons/arrow.png">
+            </li>
+          </ul>
+        </li>
+
+        <li class="bus-info">
+          <ul class="bus-route">
+            <li class="route">
+              <h1 class="line">124</h1>
+            </li>
+            <li class="destination">
+              <h2 class="info">Navy Pier</h2>
+              <h2 class="category">Southbound</h2>
+            </li>
+            <li class="time">
+              <h2 class="arrive-time">Arrive in <span style="color:red;font-weight:bold;font-size:20px">9</span> min</h2>
+              <h2 class="frequency">Every <span style="font-weight:bold;font-size:14px">10</span> minutes</h2>
+            </li>
+            <li class="arrow">
+              <img src="icons/arrow.png">
+            </li>
+          </ul>
+        </li>
+
+        <li class="bus-info">
+          <ul class="bus-route">
+            <li class="route2">
+              <h1 class="line">6x</h1>
+            </li>
+            <li class="destination2">
+              <h2 class="info" style="font-size:11px">Jackson Park Express</h2>
+              <h2 class="category" style="color:green">Reroute</h2>
+            </li>
+            <li class="time2">
+              <h2 class="frequency">N/A</h2>
+            </li>
+            <li class="arrow2">
+              <img src="icons/arrow.png">
+            </li>
+          </ul>
+        </li>
+
+        <li class="bus-info">
+          <ul class="bus-route">
+            <li class="route2">
+              <h1 class="line">4</h1>
+            </li>
+            <li class="destination2">
+              <h2 class="info">Cottage Grove</h2>
+              <h2 class="category" style="color:orange">Out of service</h2>
+            </li>
+            <li class="time2">
+              <h2 class="arrive-time">N/A</h2>
+              <h2 class="frequency">Resumes <span style="color:red;font-weight:bold;font-size:14px">12:10am</span> </h2>
+            </li>
+            <li class="arrow2">
+              <img src="icons/arrow.png">
+            </li>
+          </ul>
+        </li>
+
+        <li class="bus-info">
+          <ul class="bus-route">
+            <li class="route2">
+              <h1 class="line">20</h1>
+            </li>
+            <li class="destination2">
+              <h2 class="info">Madison</h2>
+              <h2 class="category" style="color:orange">Out of service</h2>
+            </li>
+            <li class="time2">
+              <h2 class="arrive-time">N/A</h2>
+              <h2 class="frequency">Resumes <span style="color:red;font-weight:bold;font-size:14px">12:10am</span> </h2>
+            </li>
+            <li class="arrow2">
+              <img src="icons/arrow.png">
+            </li>
+          </ul>
+        </li>
+
+        <li class="bus-info">
+          <ul class="bus-route">
+            <li class="route2">
+              <h1 class="line">157</h1>
+            </li>
+            <li class="destination2">
+              <h2 class="info">Streeterville/Taylor</h2>
+              <h2 class="category" style="color:orange">Out of service</h2>
+            </li>
+            <li class="time2">
+              <h2 class="arrive-time">N/A</h2>
+              <h2 class="frequency">Resumes <span style="color:red;font-weight:bold;font-size:14px">6:00am</span> </h2>
+            </li>
+            <li class="arrow2">
+              <img src="icons/arrow.png">
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+
+
     </section>
   </body>
 </html>
